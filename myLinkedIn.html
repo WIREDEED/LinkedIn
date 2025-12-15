@@ -6,21 +6,61 @@
 
     <style>
         body {
-            background-color: rgba(201, 191, 148, 0.897);
+            background-color: lightslategray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #333;
         }
 
         a {
             color: red;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid red;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: red;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <h1>My LinkedIn Profile</h1>
-    <p>
-        Click this link to visit and view my LinkedIn profile:
-        <a href="https://www.linkedin.com/in/fadel-qubain-29b04639a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bdy2AYpm7TD6zAj7JJJTzMg%3D%3D" target="_blank">
+
+    <div class="card">
+        <h1>My LinkedIn Profile</h1>
+        <p>
+            Click the button below to visit and view my LinkedIn profile.
+        </p>
+        <a href="https://www.linkedin.com/in/fadel-qubain-29b04639a" target="_blank">
             My LinkedIn
         </a>
-    </p>
+    </div>
+
 </body>
 </html>
